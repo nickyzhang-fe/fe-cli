@@ -1,9 +1,9 @@
 {
   "bin": {
-    "fe-cli": "index.js"
+    "vue-fe-cli": "index.js"
   },
-  "name": "fe-cli",
-  "version": "1.0.0",
+  "name": "vue-fe-cli",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
