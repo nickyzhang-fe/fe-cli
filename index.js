@@ -14,7 +14,7 @@ const log = console.log
 let dir = '' // 文件路径
  const promptList = [{
     type: "confirm",
-    message: "欢迎使用东方财富前端脚手架",
+    message: "欢迎使用Vue前端脚手架",
     name: "dfcf",
 },{
     type: 'rawlist',
@@ -46,7 +46,7 @@ let dir = '' // 文件路径
     ]
 }];
   
-program.name('fe-cli')
+program.name('vue-fe-cli')
     .description('前端脚手架')
     .version('1.0.0', '-v, --version')
 
@@ -114,7 +114,7 @@ const downloadRepo = (url, project_template) => {
                 spinner.fail(`${chalk.red('模板下载失败！')}`)
             } else {
                 log(chalk.blue("\r\n" +
-                    figlet.textSync("fe-cli", {
+                    figlet.textSync("vue-fe-cli", {
                     font: "Ghost",
                     horizontalLayout: "default",
                     verticalLayout: "default",
