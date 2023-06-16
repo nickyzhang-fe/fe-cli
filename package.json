@@ -1,0 +1,26 @@
+{
+  "bin": {
+    "fe-cli": "index.js"
+  },
+  "name": "fe-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.6.0",
+    "git-clone": "^0.2.0",
+    "inquirer": "^9.2.7",
+    "ora": "^6.3.1",
+    "rimraf": "^5.0.1"
+  }
+}
